@@ -1,0 +1,177 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+   
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Padding around the header */
+    background-color: #0073e6; /* Dark background for the header */
+    color: white; /* White text color */
+}
+
+/* H1 styles */
+header h1 {
+    margin: 0; /* Removes default margin */
+    font-size: 2.5em; /* Increases font size */
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 10px; /* Adds space between the h1 and nav */
+}
+
+/* Navigation list styles */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+}
+
+/* Navigation list item styles */
+nav ul li {
+    display: inline; /* Displays list items in a row */
+    margin: 0 15px; /* Adds space between items */
+}
+
+/* Link styles */
+nav ul li a {
+    color: white; /* White link color */
+    text-decoration: none; /* Removes underline */
+    font-size: 1.2em; /* Increases font size for links */
+}
+
+/* Link hover effect */
+nav ul li a:hover {
+    text-decoration: underline; /* Underlines link on hover */
+    color: #ffcc00; /* Changes color on hover */
+}
+
+/* Product grid styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+/* Individual product styles */
+.product {
+    background-color: white; /* Background for each product */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each product */
+    text-align: center; /* Center text */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.product img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product h2 {
+    font-size: 1.5em; /* Product title size */
+    margin: 10px 0; /* Margin around title */
+}
+
+.product p {
+    font-size: 1.2em; /* Price size */
+    color: #333; /* Darker color for price */
+}
+
+.product button {
+    background-color: #333; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.product button:hover {
+    background-color: #ffcc00; /* Change button color on hover */
+}
+
+/* Hover effect for products */
+.product:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #0073e6; /* Dark background for footer */
+    color: white; /* White text color */
+    padding: 40px 20px; /* Padding for footer */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.footer-section {
+    flex: 1; /* Allow sections to grow equally */
+    margin: 0 20px; /* Margin between sections */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.footer-section p {
+    margin: 0 0 10px; /* Space below paragraph */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.footer-section a {
+    color: #ffcc00; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-media {
+    display: flex; /* Flexbox for social media icons */
+    padding: 0; /* Remove padding */
+}
+
+.social-media li {
+    margin-right: 15px; /* Space between icons */
+}
+
+.social-media img {
+    width: 30px; /* Set icon size */
+    height: auto; /* Maintain aspect ratio */
+    padding: 5px;
+    transition: transform 0.2s; /*for smooth transform*/
+}
+.social-media img:hover{
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center; /* Center the copyright text */
+    margin-top: 20px; /* Space above copyright text */
+}

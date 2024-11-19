@@ -1,0 +1,25 @@
+---------------------------------------
+| Logo | Search Bar | Account | Cart  |
+---------------------------------------
+|          Hero Image/Carousel        |
+|         [Shop Now Button]           |
+---------------------------------------
+|    Featured Categories (Grid)       |
+|  [Electronics] [Fashion] [Home]     |
+---------------------------------------
+|         Product Listings (Grid)     |
+|  [Product Card] [Product Card]      |
+|  [Product Card] [Product Card]      |
+---------------------------------------
+|         Customer Reviews             |
+|  [Review 1] [Review 2] [Review 3]   |
+---------------------------------------
+|      Newsletter Signup Section       |
+| [Email Input] [Subscribe Button]     |
+---------------------------------------
+| Footer with Links and Payment Icons  |
+---------------------------------------
+
+
+
+

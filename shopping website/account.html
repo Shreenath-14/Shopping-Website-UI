@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile-info {
+            margin-bottom: 20px;
+        }
+        .profile-info label {
+            font-weight: bold;
+        }
+        .profile-info p {
+            margin: 5px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+        .button:hover {
+            background-color: #005bb5;
+        }
+        .order-history {
+            margin-top: 30px;
+        }
+        .order-history table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .order-history th, .order-history td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .order-history th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Account</h1>
+
+        <div class="profile-info">
+            <h2>Profile Information</h2>
+            <label for="username">Username:</label>
+            <p id="username">JohnDoe</p>
+            <label for="email">Email:</label>
+            <p id="email">johndoe@example.com</p>
+            <label for="phone">Phone:</label>
+            <p id="phone">+1 (234) 567-8901</p>
+            <a href="edit-profile.html" class="button">Edit Profile</a>
+        </div>
+
+        <div class="order-history">
+            <h2>Order History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1001</td>
+                        <td>2023-10-01</td>
+                        <td>Shipped</td>
+                        <td>$49.99</td>
+                    </tr>
+                    <tr>
+                        <td>#1002</td>
+                        <td>2023-09-15</td>
+                        <td>Delivered</td>
+                        <td>$29.99</td>
+                    </tr>
+                    <tr>
+                        <td>#1003</td>
+                        <td>2023-08-20</td>
+                        <td>Pending</td>
+                        <td>$19.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <script>
+        // Check if the user is logged in
+        if (!localStorage.getItem('loggedIn')) {
+            alert('You are not logged in. Redirecting to login page.');
+            window.location.href = 'login.html'; // Redirect to login page
+        }
+    </script> -->
+
+</body>
+</html>
